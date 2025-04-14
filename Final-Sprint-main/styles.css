@@ -1,0 +1,291 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1006px;
+  height: 1198px;
+  background-color: rgb(61, 61, 61);
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* The header section. */
+header {
+  width: 1000px;
+  height: 200px;
+  background-color: lightgreen;
+}
+
+/* The header is made up of a message bar and the banner image. */
+.tophead {
+  width: 1000px;
+  height: 40px;
+  background-color: rgb(61, 61, 61);
+  color: rgb(225, 224, 224);
+  font-style: italic;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 3px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 9px;
+}
+
+/* The navigation section. */
+
+nav {
+  width: 1000px;
+  height: 50px;
+  background-color: white;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+}
+
+/* The nav section will contain 2 divs. */
+
+.navleft {
+  width: 493px;
+  height: 45px;
+  background-color: orange;
+  float: left;
+}
+
+.navright {
+  width: 495px;
+  height: 45px;
+  background-color: orange;
+  margin-left: 5px;
+  float: right;
+}
+
+main {
+  width: 1000px;
+  height: 625px;
+  background-color: lightyellow;
+}
+
+/* The main section will contain 3 divs. */
+
+.maintopleft {
+  width: 490px;
+  height: 300px;
+  background-color: cyan;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+}
+
+.mainright {
+  width: 490px;
+  height: 610px;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  float: right;
+}
+
+.mainbottomleft {
+  width: 490px;
+  height: 300px;
+  background-color: lightseagreen;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+}
+
+footer {
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(61, 61, 61);
+  border-top: 3px solid gray;
+}
+
+.footertop {
+  width: 1000px;
+  height: 60px;
+  background-color: rgb(61, 61, 61);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: auto;
+  padding-top: 18px;
+}
+
+footer hr {
+  width: 950px;
+  height: 1px;
+  background-color: rgb(6, 103, 75);
+  border: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.footertop a:link {
+  color: rgb(225, 224, 224);
+  text-shadow: 1px 1px 1px black;
+  font-size: 17pt;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footertop a:visited {
+  color: rgb(225, 224, 224);
+  font-size: 17pt;
+  text-decoration: none;
+}
+
+.footertop a:hover {
+  color: rgb(13, 185, 136);
+  font-size: 17pt;
+  transition: ease-in 0.2s;
+  text-decoration: none;
+}
+
+.footermiddle {
+  width: 1000px;
+  height: 148px;
+  background-color: rgb(61, 61, 61);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.footermiddle h2 {
+  color: rgb(13, 185, 136);
+  font-size: 15pt;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 5px;
+  padding-bottom: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footermiddle p {
+  color: rgb(225, 224, 224);
+  font-size: 13pt;
+  text-shadow: 1px 1px 1px black;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footermedia {
+  width: 1000px;
+  height: 60px;
+  background-color: rgb(61, 61, 61);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 9px;
+}
+
+.mediabutton1 {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(225, 224, 224);
+  background-image: url(Images/facebook.png);
+  border: 1px solid rgb(17, 210, 155);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mediabutton1:hover {
+  background-color: rgb(17, 210, 155);
+  transition: ease-in 0.2s;
+}
+
+.mediabutton2 {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(225, 224, 224);
+  background-image: url(Images/instagram.png);
+  border: 1px solid rgb(17, 210, 155);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mediabutton2:hover {
+  background-color: rgb(17, 210, 155);
+  transition: ease-in 0.2s;
+}
+
+.mediabutton3 {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(225, 224, 224);
+  background-image: url(Images/twitter.png);
+  border: 1px solid rgb(17, 210, 155);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mediabutton3:hover {
+  background-color: rgb(17, 210, 155);
+  transition: ease-in 0.2s;
+}
+
+.mediabutton4 {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(225, 224, 224);
+  background-image: url(Images/linkedin.png);
+  border: 1px solid rgb(17, 210, 155);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mediabutton4:hover {
+  background-color: rgb(17, 210, 155);
+  transition: ease-in 0.2s;
+}
+
+.mediabutton5 {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(225, 224, 224);
+  background-image: url(Images/reddit.png);
+  border: 1px solid rgb(17, 210, 155);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.mediabutton5:hover {
+  background-color: rgb(17, 210, 155);
+  transition: ease-in 0.2s;
+}
+
+.footerbottom {
+  width: 1000px;
+  height: 40px;
+  background-color: rgb(41, 41, 41);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-style: italic;
+  padding: 9px;
+  color: rgb(138, 138, 138);
+  text-shadow: 1px 1px 1px rgb(3, 3, 3);
+}
